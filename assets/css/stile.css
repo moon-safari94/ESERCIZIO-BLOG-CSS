@@ -1,0 +1,238 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: aqua;
+    background-image: url("/assets/img/sfondo.png");
+    background-position: center;
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 50px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #264b6f, #0099CC);
+    box-shadow: 2px 2px 4px 1px #666, -2px -2px 4px 2px rgb(250, 248, 248);
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+nav li ::after {
+    content: '\21DA';
+}
+
+nav li ::before {
+    content: '\21DB';
+}
+
+hr {
+    display: none;
+}
+
+div p {
+    padding: 1em 0;
+    font-weight: 500;
+}
+
+nav li {
+    list-style: none;
+}
+
+/* nav li {
+    font-size: 22px;
+    list-style-type: "\21d2\0020";
+    color: white;
+    font-weight: bold;
+    list-style-position: inside;
+    line-height: 1.4;
+} */
+
+ul li a:link, a:visited {
+    text-decoration: none; color: #ffffff;
+}
+
+ul li a:hover {
+    text-decoration: dotted; color: #DE8678;
+}
+
+
+
+/* MAIN */
+main {
+    padding: 50px 30px;
+    margin: 30px;
+    background-color: #ffffff;
+    line-height: 1.6em;
+    box-shadow: 1px 1px 2px 1px rgb(87, 86, 86);
+    font-weight: 300;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article h1 {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h1 + p {
+    color: rgb(152, 143, 143);
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-weight: 600;
+    color: purple;
+}
+
+code {
+    background-color: #dee4e5;
+    border: 1px solid #a6aaaa;
+    border-radius: 7px;
+}
+ul {
+    padding: 1rem;
+    margin-left: 1em;
+} 
+
+ul li {
+    list-style-type: inherit;
+    
+}
+
+ol {
+    padding: 1rem;
+    margin-left: 1em;
+}
+
+ol li {
+    list-style-type: inherit;
+}
+/* TABELLE */
+/*caption {
+    font-style: italic;
+    font-weight: 500;
+   /* padding-top: 1rem;*/
+
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #356ccc;
+    width: 100%;
+}
+
+
+th {
+    border-right: 0.5px solid white;
+    padding: 1.5em;
+}
+
+tr th {
+    border: 1px thin #ffffff;
+    background-color: #0f488d;
+    color: #ffffff;
+
+}
+
+td {
+
+    padding: 0.5em ;
+}
+
+thead {
+    background-color: #356ccc;
+    color: white;
+ 
+}
+
+/* thead {
+    
+} */
+
+tbody tr:nth-child(even){background-color: #f2f2f2;}
+
+table + p {
+    padding: 24px 0;
+}
+iframe {
+    border-radius: 15px;
+    height: 12em;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* FORM */
+
+section  {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    background-color: #e1e0e0;
+    margin: 8px 0;
+    padding: 24px;
+    border: 2px solid #cccccc;
+   
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 15px auto;
+    text-align: center;
+}
+/* ELEMENTI NELL' ASIDE */
+aside div {
+    display: block;
+    background-color: #e1e0e0;
+    margin: 8px 0;
+    padding: 24px;
+    border: 2px solid #cccccc;
+    font-weight: 200;
+}
+aside div p:nth-child(3) {
+    text-align: right;
+}
+aside div p:nth-child(2) i {
+    margin: 5px;
+}
+aside div p:nth-child(3) i {
+    margin: 5px;
+}
+/* FOOTER */
+/*footer {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 50px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #1e3c4e, #2e7086);
+    box-shadow: 2px 2px 4px 1px #666, -2px -2px 4px 2px rgb(250, 248, 248);
+    color: #ffffff;
+    text-align: center;
+}*/
+footer {
+    background: linear-gradient(0deg, #2a3339, #005567 80%) no-repeat;
+    margin: 24px 12px;
+    padding:8px;
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: #ff00fe;
+}
+footer p {
+    padding: 16px 0px 20px 0px
+}
+footer address {
+    padding-bottom: 24px;
+}
